@@ -2,6 +2,9 @@
 	"type": "module",
 	"scripts": {
 		"dev": "cd playground && vite",
+		"lint": "biome check .",
+		"typecheck": "tsc --noEmit",
+		"format": "prettier . --write --list-different",
 		"publish": "bunx jsr publish"
 	},
 	"peerDependencies": {
