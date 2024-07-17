@@ -1,5 +1,5 @@
 {
 	"name": "@maple/convex-auth-ui",
-	"version": "0.0.0-donotuse",
-	"exports": "./index.ts"
+	"version": "0.0.0-donotuse.0",
+	"exports": "./src/index.tsx"
 }

@@ -1,9 +1,32 @@
 {
 	"type": "module",
+	"scripts": {
+		"dev": "cd playground && vite",
+		"publish": "bunx jsr publish"
+	},
+	"peerDependencies": {
+		"@auth/core": "^0.34.1",
+		"@convex-dev/auth": "^0.0.36",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"dependencies": {
+		"@floating-ui/react-dom": "^2.1.1",
+		"lucide-react": "^0.408.0",
+		"react-focus-on": "^3.9.3"
+	},
 	"devDependencies": {
+		"@auth/core": "^0.34.1",
 		"@biomejs/biome": "^1.8.3",
+		"@convex-dev/auth": "^0.0.36",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
 		"@types/bun": "latest",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.1",
 		"prettier-plugin-jsdoc": "^1.3.0",
-		"typescript": "^5.0.0"
+		"typescript": "^5.0.0",
+		"vite": "^5.3.4"
 	}
 }
