@@ -9,6 +9,9 @@
 			"recommended": true,
 			"correctness": {
 				"useExhaustiveDependencies": "warn"
+			},
+			"style": {
+				"noUnusedTemplateLiteral": "off"
 			}
 		}
 	},
